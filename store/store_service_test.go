@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-var testStoreService = &StorageService{}
+var testStoreService = &StoreService{}
 
 func init() {
 	testStoreService = InitializeStore()
